@@ -50,6 +50,7 @@ header ul li a:visited {
 .hero {
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-repeat: no-repeat;
   font-weight: bold;
   font-size: 1.3rem;
 }
@@ -73,16 +74,37 @@ button {
 .b-white {
   background-color: white;
   color: black;
+  border: 2px solid white;
+}
+
+.b-white:hover {
+  background-color: #252728;
+  color: white;
+  border: 2px solid #252728;
 }
 
 .b-dark {
   background-color: #252728;
   color: white;
+  border: 2px solid #252728;
+}
+
+.b-dark:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
 }
 
 .b-blue {
   background-color: #90A1E0;
   color: white;
+  border: 2px solid white;
+}
+
+.b-blue:hover {
+  background-color: white;
+  color: #90A1E0;
+  border: 2px solid #90A1E0;
 }
 
 
