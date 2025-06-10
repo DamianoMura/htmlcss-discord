@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: #3160E0;
+  background-color: #255EE9;
   color: white;
 }
 
@@ -24,7 +24,7 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -47,12 +47,44 @@ header ul li a:visited {
 
 }
 
+.hero {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
 /*button style */
 button {
-  background-color: white;
-  color: black;
+
   border: none;
   border-radius: 20px;
+
+}
+
+.b-white {
+  background-color: white;
+  color: black;
+}
+
+.b-dark {
+  background-color: #252728;
+  color: white;
+}
+
+/*positions */
+.pos-rel {
+  position: relative;
+}
+
+.accedi {
+  font-size: 0.8rem;
+
+  position: absolute;
+
+
+  right: 5px;
+
 }
 
 /* utils*/
@@ -78,13 +110,35 @@ button {
   display: flex;
 }
 
+.direction-column {
+  flex-direction: column;
+}
+
 .justify-content-between {
   justify-content: space-between;
 }
 
-.align-self-center {
-  align-self: center;
+.justify-content-center {
+  justify-content: center;
 }
+
+.justify-self-end {
+  justify-self: end;
+}
+
+.align-center {
+  align-content: center;
+}
+
+.row-rev {
+  flex-direction: row-reverse;
+}
+
+/*font weights*/
+.f-4 {
+  font-size: 3rem;
+}
+
 
 /*column percentiles */
 .col15 {
@@ -136,11 +190,24 @@ button {
   height: 800px;
 }
 
-/*paddings */
+/*paddings full */
 .p5 {
   padding: 5px;
 }
 
+.p10 {
+  padding: 10px;
+}
+
+.p15 {
+  padding: 15px;
+}
+
+.p50 {
+  padding: 50px;
+}
+
+/*padding top */
 .pt10 {
   padding-top: 10px;
 }
@@ -149,10 +216,20 @@ button {
   padding-top: 30px;
 }
 
+/*padding bottom */
 .pb30 {
   padding-bottom: 30px;
 }
 
+.pb50 {
+  padding-bottom: 50px;
+}
+
+.pb80 {
+  padding-bottom: 80px;
+}
+
+/* padding y */
 .py20 {
   padding: 20px 0;
 }
@@ -161,13 +238,29 @@ button {
   padding: 50px 0;
 }
 
+/* padding x */
+.px20 {
+  padding: 0 20px;
+}
+
 /*margins*/
+/* margin x */
+.mx20 {
+  margin: 0 20px;
+}
+
+.mb100 {
+  margin: 0 100px 0 0;
+}
 
 .my20 {
   margin: 20px 0;
 }
 
 /* utils/background_colors */
+.text-white {
+  color: white;
+}
 
 .bg-turquoise {
   background-color: turquoise;
