@@ -5,6 +5,21 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1200px;
+
+}
+
+.container-sm {
+  margin: 0 auto;
+  display: flex;
+  max-width: 900px;
+
+}
+
+/* header styling */
 header {
   background-color: #255EE9;
   color: white;
@@ -32,52 +47,7 @@ header ul li a:visited {
   text-decoration: none;
 }
 
-
-.container {
-  margin: 0 auto;
-  display: flex;
-  max-width: 1200px;
-
-}
-
-.container-sm {
-  margin: 0 auto;
-  display: flex;
-  max-width: 900px;
-
-}
-
-.hero {
-  background-image: url(../img/jumbo.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
-.stars {
-  background-image: url(../img/stars.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 50px;
-
-}
-
-.langdrop {
-  position: relative;
-  display: inline-block;
-
-}
-
-.langdrop img {
-  text-align: center;
-  height: 30px;
-  vertical-align: middle;
-}
-
-
-
-/*button style */
+/*button styling */
 .accedi {
   font-size: 0.8rem;
   position: absolute;
@@ -127,26 +97,57 @@ button {
   border: 2px solid #90A1E0;
 }
 
-
-
-
-/* utils*/
-.border3-black {
-  border: 3px black;
+/*misc */
+.hero {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
-.border3-white {
-  border: 3px white;
+.stars {
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px;
+
 }
 
-.dashed {
-  border-style: dashed;
+/*footer */
+footer {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer ul {
+  list-style: none;
+
+}
+
+.langdrop img {
+  text-align: center;
+  height: 30px;
+  vertical-align: middle;
+}
+
+footer ul a {
+  text-decoration: none;
+
+}
+
+footer ul li {
+  padding: 10px 0;
+
 }
 
 .border-top-white {
   /*footer top border*/
   border-top: 1px solid white;
 }
+
+/* utils*/
+
 
 /* utils/flex_attributes */
 .flex {
@@ -165,24 +166,10 @@ button {
   justify-content: center;
 }
 
-.justify-self-end {
-  justify-self: end;
-}
-
-.align-center {
-  align-content: center;
-}
-
-.row-rev {
-  flex-direction: row-reverse;
-}
-
-
-
-
 /*column percentiles */
 .col15 {
   width: 15%;
+  padding: 50px 20px 20px 20px;
 }
 
 .col20 {
@@ -223,7 +210,7 @@ button {
   color: white;
 }
 
-/*font weights*/
+/*font formatting*/
 .bold {
   font-weight: bold;
 }
@@ -244,7 +231,7 @@ button {
 }
 
 
-/*paddings full */
+/*paddings*/
 .p5 {
   padding: 5px;
 }
@@ -274,6 +261,10 @@ button {
   padding-top: 30px;
 }
 
+.pt50 {
+  padding-top: 50px;
+}
+
 /*padding bottom */
 .pb30 {
   padding-bottom: 30px;
@@ -290,6 +281,10 @@ button {
 /* padding y */
 .py20 {
   padding: 20px 0;
+}
+
+.py30 {
+  padding: 30px 0;
 }
 
 .py50 {
@@ -309,7 +304,7 @@ button {
 /*margins*/
 
 
-/* margin x */
+
 .mx20 {
   margin: 0 20px;
 }
@@ -319,60 +314,24 @@ button {
 }
 
 .mb100 {
-  margin: 0 100px 0 0;
+  margin-bottom: 100px;
 }
 
 .my20 {
   margin: 20px 0;
 }
 
-.mt20 {
-  margin-top: 20px;
+
+.mt50 {
+  margin-top: 50px;
 }
 
 /* utils/background_colors */
-
-
-.bg-turquoise {
-  background-color: turquoise;
-}
-
-.bg-gold {
-  background-color: gold;
-}
-
-.bg-blue {
-  background-color: blue;
-}
-
-.bg-fuchsia {
-  background-color: fuchsia;
-}
-
-.bg-pink {
-  background-color: pink;
-}
 
 .bg-silver {
   background-color: #F6F6F6;
 }
 
-.bg-green {
-  background-color: green;
-}
-
-.bg-light-green {
-  background-color: lightgreen;
-}
-
-.bg-hotpink {
-  background-color: hotpink;
-}
-
 .bg-dark-grey {
   background-color: rgb(27, 27, 27);
-}
-
-.bg-aquamarine {
-  background-color: aquamarine;
 }
