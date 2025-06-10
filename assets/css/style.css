@@ -54,6 +54,8 @@ header ul li a:visited {
   font-size: 1.3rem;
 }
 
+
+
 /*button style */
 button {
 
@@ -72,19 +74,12 @@ button {
   color: white;
 }
 
-/*positions */
-.pos-rel {
-  position: relative;
-}
+
 
 .accedi {
   font-size: 0.8rem;
-
   position: absolute;
-
-
   right: 5px;
-
 }
 
 /* utils*/
@@ -134,10 +129,7 @@ button {
   flex-direction: row-reverse;
 }
 
-/*font weights*/
-.f-4 {
-  font-size: 3rem;
-}
+
 
 
 /*column percentiles */
@@ -172,6 +164,25 @@ button {
   text-align: right;
 }
 
+.text-white {
+  color: white;
+}
+
+/*font weights*/
+.bold {
+  font-weight: bold;
+}
+
+.txt4 {
+  font-size: 4rem;
+
+}
+
+.txt1v5 {
+  font-size: 1.5rem;
+
+}
+
 /*box  heights*/
 
 .height100 {
@@ -201,6 +212,10 @@ button {
 
 .p15 {
   padding: 15px;
+}
+
+.p25 {
+  padding: 25px;
 }
 
 .p50 {
@@ -258,9 +273,7 @@ button {
 }
 
 /* utils/background_colors */
-.text-white {
-  color: white;
-}
+
 
 .bg-turquoise {
   background-color: turquoise;
@@ -283,7 +296,7 @@ button {
 }
 
 .bg-silver {
-  background-color: silver;
+  background-color: #F6F6F6;
 }
 
 .bg-green {
