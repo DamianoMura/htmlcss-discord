@@ -54,13 +54,19 @@ header ul li a:visited {
   font-size: 1.3rem;
 }
 
+.stars {
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px;
 
+}
 
 /*button style */
 button {
 
   border: none;
-  border-radius: 20px;
+  border-radius: 50px;
 
 }
 
@@ -71,6 +77,11 @@ button {
 
 .b-dark {
   background-color: #252728;
+  color: white;
+}
+
+.b-blue {
+  background-color: #90A1E0;
   color: white;
 }
 
@@ -183,23 +194,11 @@ button {
 
 }
 
-/*box  heights*/
+.txt2 {
+  font-size: 2rem;
 
-.height100 {
-  height: 100px;
 }
 
-.height300 {
-  height: 300px;
-}
-
-.height400 {
-  height: 400px;
-}
-
-.height800 {
-  height: 800px;
-}
 
 /*paddings full */
 .p5 {
@@ -259,6 +258,8 @@ button {
 }
 
 /*margins*/
+
+
 /* margin x */
 .mx20 {
   margin: 0 20px;
