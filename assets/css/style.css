@@ -63,7 +63,27 @@ header ul li a:visited {
 
 }
 
+.langdrop {
+  position: relative;
+  display: inline-block;
+
+}
+
+.langdrop img {
+  text-align: center;
+  height: 30px;
+  vertical-align: middle;
+}
+
+
+
 /*button style */
+.accedi {
+  font-size: 0.8rem;
+  position: absolute;
+  right: 5px;
+}
+
 button {
 
   border: none;
@@ -109,11 +129,6 @@ button {
 
 
 
-.accedi {
-  font-size: 0.8rem;
-  position: absolute;
-  right: 5px;
-}
 
 /* utils*/
 .border3-black {
@@ -187,6 +202,13 @@ button {
 }
 
 /*text formatting*/
+.text-blue {
+  color: #90a1e0;
+}
+
+.text-grey {
+  color: #1B1B1B;
+}
 
 .text-center {
   text-align: center;
@@ -279,12 +301,21 @@ button {
   padding: 0 20px;
 }
 
+/* padding right */
+.pr15 {
+  padding-right: 15px;
+}
+
 /*margins*/
 
 
 /* margin x */
 .mx20 {
   margin: 0 20px;
+}
+
+.mr150 {
+  margin-right: 150px;
 }
 
 .mb100 {
