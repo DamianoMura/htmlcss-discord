@@ -50,8 +50,8 @@ header ul li a:visited {
 /*button styling */
 .accedi {
   font-size: 0.8rem;
-  position: absolute;
-  right: 5px;
+  position: relative;
+  right: -80px;
 }
 
 button {
