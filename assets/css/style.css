@@ -15,7 +15,7 @@
 .container-sm {
   margin: 0 auto;
   display: flex;
-  max-width: 900px;
+  max-width: 750px;
 
 }
 
@@ -48,15 +48,11 @@ header ul li a:visited {
 }
 
 /*button styling */
-.accedi {
-  font-size: 0.8rem;
-  position: relative;
-  right: -80px;
-}
 
-button {
 
-  border: none;
+.btn {
+
+  text-decoration: none;
   border-radius: 50px;
 
 }
